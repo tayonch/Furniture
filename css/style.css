@@ -252,10 +252,12 @@ margin: 0 auto;
     height: 70px;
     width: 484px;
   
-   
+   border: 2px solid #054C73;
    margin-top: 50px;
+   border-radius: 3px;
    
 }
+
 .mailtext a {
    padding: 26px 45px;
    background-color: #054C73;
@@ -266,3 +268,41 @@ margin: 0 auto;
 }
 
 /* mail end */
+/* footer start */
+.footertext h4{
+     font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.footertext p{
+width: 400px;
+  color: #ffffff;
+
+margin: 34px 0px 21px 0px ;
+  line-height: 35px;
+}
+.footertext{
+    margin-top: 50px;
+    margin-bottom: 127px;
+}
+.foobtm h4{
+     font-size: 24px;
+    font-weight: 700;
+     color: #ffffff;
+    margin-top: 60px;
+    margin-bottom: 23px;
+}
+#footter{
+    background-color: #054C73;
+}
+.foterimg img{
+border-radius: 2px;
+
+
+}
+.foterimg{
+
+gap: 20px
+;
+}
+/* footer end */
