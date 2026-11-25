@@ -1,0 +1,268 @@
+/* all common css start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+/* all common css end */
+/* header start */
+
+.menubar ul li a{
+ color: #333333;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.menubar ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+.navbar{
+    margin-top: 43px;
+    margin-bottom: 38px;
+}
+/* header end */
+/* banner start */
+#banner{
+    background-image: url(../images/banner.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+padding: 150px 0px;
+height: 749px;
+    
+}
+.banertext h6{
+font-weight: 600;    
+color: #333333;
+}
+.banertext h2{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #054C73;
+    /* width: 559px; */
+    margin: 20px 0px;
+
+}
+.banertext p{
+font-size: 18px;
+font-weight: 500;
+line-height: 39px;
+color: #333333;  
+margin-bottom: 30px;  
+width: 546px;
+
+}
+.bannerbtn a{
+    padding: 25px 72px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #054C73;
+    border-radius: 50px;
+}
+.bannercard{
+  
+}
+.banertext{
+    padding: 37px 45px 41px 39px ;
+    background-color: #DFE9F4;
+    border-radius: 10px;
+    width: 643px;
+}
+/* banner end */
+/* service start */
+.servicetext h5{
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+.servicetext p{
+   
+    color: #333333;
+}
+.servicetext{
+    margin-left: 20px;
+}
+.sarvice{
+    align-items: center;
+    
+
+}
+#service{
+background-color: #F2F5FF;
+padding-top: 46px;
+padding-bottom: 39px;
+}
+/* service end */
+/* collection start */
+.collectiontext h4{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333333;
+}
+.collectiontext p{
+    font-size: 20px;
+   
+    color: #666666;
+}
+.collectiontext {
+  text-align: center;
+  margin-top: 60px;
+}
+.collectioncard{
+  margin-top: 88px;
+   
+}
+.collectionone:hover{
+transform: translateY(-20px
+);
+transition: 0.5s;
+}
+
+/* collection end */
+/* space start */
+.spacetext h4{
+    font-size: 32px;
+    font-weight: 700;
+    color: #333333;
+}
+.spacetext p{
+    font-size: 20px;
+    
+    color:#666666;
+    width: 492px;
+    line-height: 39px;
+    margin-bottom: 30px;
+}
+.spacebtn a{
+    background-color: #054C73;
+    color: #ffffff;
+    padding: 24px 57px;
+    border-radius: 50px;
+}
+#space{
+    padding: 60px 0px ;
+    background-color: #F2F5FF;
+   margin: 60px 0px;
+}
+.spacetext{
+    margin-top: 230px;
+}
+/* space end */
+/* ranges start */
+.rangestext h4{
+    font-size: 32px;
+    font-weight: 700;
+    color: #333333;
+}
+.rangestext p{
+  font-size: 20px;
+  color: #666666;
+  margin-top: 20px;
+}
+.rangestext {
+ text-align: center;
+}
+.rangesimg h5{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 60px
+}
+.rangesimg {
+   text-align: center;
+   margin-top: 50px;
+}
+/* ranges end */
+/* work start */
+.worktext h4{
+     font-size: 32px;
+    font-weight: 700;
+    color: #333333;
+}
+.worktext p{
+      font-size: 20px;
+  color: #666666;
+  margin-top: 20px;
+}
+.worktext{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.workimg h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.workimg p{
+
+    color: #666666;
+    width: 381px;
+    text-align: center;
+}
+
+/* work end */
+/* mail start */
+#mail{
+    padding: 60px 0px ;
+    background-color: #F2F5FF;
+    margin-top: 197px;
+}
+.mailtext h4{
+  font-size: 32px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.mailtext p{
+width: 514px;
+  color: #666666;
+margin: 0 auto;
+  font-size: 20px;
+  line-height: 39px;
+}
+.mailtext{
+    text-align: center;
+}
+
+.mailtext input {
+    margin: 0 auto;
+    height: 70px;
+    width: 484px;
+  
+   
+   margin-top: 50px;
+   
+}
+.mailtext a {
+   padding: 26px 45px;
+   background-color: #054C73;
+   color: #ffffff;
+   border-radius: 3px;
+   margin-left: -153px;
+   
+}
+
+/* mail end */
